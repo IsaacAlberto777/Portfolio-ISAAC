@@ -1,0 +1,56 @@
+body{
+    background-color: #3d3d3d;
+    color: #D1D5DB;
+    line-height: 1.3;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* necessário para o posicionamento absoluto de h3 */
+}
+.topo h1{
+    font-size: 40px;
+}
+.topo button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    cursor: pointer;
+    position: absolute;
+    right: 225px;
+}
+.topo button img{
+    width: 40px;
+    height: 40px;
+    right: 225px;
+}
+.topo h3{
+    position: absolute;
+    right: 40px;
+}
+.topo h3 a {
+    color: #D1D5DB;
+}
+#texto{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#titulo{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.links{
+    justify-content: center;
+    display: flex;
+}
+.links img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
